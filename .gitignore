@@ -1,0 +1,30 @@
+# --- Python ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# --- PyCharm ---
+.idea/
+
+# --- R / RStudio ---
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# --- Data ---
+data/*.csv
+data/*.xlsx
+!data/.gitkeep
+
+# --- MySQL / credentials ---
+*.env
+config.ini
+credentials.json
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
